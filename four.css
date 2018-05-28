@@ -37,7 +37,6 @@ body {
 
 .base ul {
     height: 200px;
-    
 }
 
 .purpose ul {
@@ -57,7 +56,7 @@ body {
     margin: 20px 20px;
 }
 .project p{
-    height: 30px;
+    height: 50px;
     margin-left: 30px;
     text-shadow: 6px 6px 3px rgb(179, 175, 175);
 }
@@ -71,4 +70,22 @@ body {
 
 .project .fun+p::before {
     content: "技能：";
+}
+.project .fun+p a::before{
+content:"gitHub地址：";
+}
+.project .fun+p a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    
+}
+.project .fun+p a:visited{
+color: red;
+}
+.project .fun+p a:hover{
+    text-decoration-line: underline;
+}
+.project .fun+p a:active{
+    color: pink;
 }
