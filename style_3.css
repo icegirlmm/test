@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sum {
+    width: 80%;
+    height: 680px;
+    /* background: blue; */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+#left {
+    height: 80px;
+    background: rgb(133, 133, 133);
+    color: #fff;
+    line-height: 80px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.three {
+    clear: both;
+    box-sizing: border-box;
+    height: 120px;
+    /* background:blue; */
+    /* border: 1px solid #ccc; */
+}
+
+.lf {
+    float: left;
+    width: 15%;
+    height: 118px;
+    margin-bottom: 2px;
+    background: rgb(214, 214, 214);
+    line-height: 118px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.rh {
+    height: 120px;
+    box-sizing: border-box;
+    float: left;
+    width: 85%;
+    border: 1px solid #ccc;
+}
+.rh li{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.rh li span{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rh article{
+overflow: hidden;
+}
+.rh article h3,.rh article p{
+    float: left;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}

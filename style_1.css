@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col {
+    height: 100px;
+}
+
+.col ul li{
+    width: 200px;
+    margin-top:20px;
+    float: left;
+}
+.col ul li span{
+    display: inline-block;
+    margin-right: 10px;
+}
+#connect ul li:nth-child(2){
+margin-right: 40px;
+}
+.two h2,.two h3{
+    margin-top:10px; 
+}

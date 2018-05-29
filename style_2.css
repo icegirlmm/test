@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col {
+    height: 100px;
+}
+
+.col ul li{
+    width: 200px;
+    margin-top:20px;
+    float: left;
+}
+.col ul li span{
+    display: inline-block;
+    margin-right: 10px;
+}
+#connect ul li:nth-child(2){
+margin-right: 40px;
+}
+.two h2,.two h3{
+    margin-top:10px; 
+}
+
+#left{
+   text-align: center;
+    width: 20%;
+    height: 650px;
+    float: left;
+    padding-top: 80px;
+    color: #fff;
+    background: rgb(116,165,244);
+}
+#right{
+    box-sizing: border-box;
+    width: 80%;
+    float: left;
+    padding: 30px;
+}
