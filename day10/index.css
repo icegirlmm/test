@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    list-style: none;
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    html{
+        font-size: 100px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+html{
+    font-size: 90px;
+}
+}
+@media screen and (min-width: 980px) and (max-width: 1200px){
+    html{
+        font-size: 61.25px;
+    }
+    }
+@media screen and (min-width: 400px) and (max-width: 980px){
+    html{
+        font-size:61.25px;
+    }
+    }
+
+#one {
+    position: relative;
+    color: #fff;
+    height: 10rem;
+    background-image: url(images/1_02.jpg);
+}
+
+#one h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4.14rem;
+    width: 7.7rem;
+    height: 1.36rem;
+    text-align: center;
+    font-size: 0.62rem;
+}
+#one .describe{
+    width: 7.68rem;
+    height: 1.7rem;
+    position: absolute;
+    top:3.39rem;
+    left: 4.17rem;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .32rem;
+    opacity: .6;
+}
+
+#one .login{
+    position: absolute;
+    top: 5.3rem;
+    left: 3.15rem;
+    width: 9.7rem;
+    height: 2.5rem;
+    border-top: 0.01rem solid rgba(255, 255, 255, .2);
+    border-bottom: 0.01rem solid rgba(255, 255, 255, .2);
+}
+#one .login h2 {
+    position: absolute;
+    top: .59rem;
+    left: 3.66rem;
+    text-align: center;
+    font-size: .16rem;  
+}
+#one .login .introduce{
+    position: absolute;
+    top: .9rem;
+    left: 4.05rem;
+    font-size: .12rem;
+    opacity: .3;
+}
+.login .user{
+    position: absolute;
+    top: 1.48rem;
+    left: 1rem;
+    width: 2.9rem;
+    height: .5rem;
+    border: 0.01rem solid rgba(255, 255, 255, .2);
+}
+.login .user{
+    position: absolute;
+    top: 1.48rem;
+    left: 1rem;
+    width: 2.9rem;
+    height: .5rem;
+    border: 0.01rem solid rgba(255, 255, 255, .2);
+}
+.login .user p{
+    font-size: .14rem;
+    line-height: .5rem;
+    margin-left: .22rem;
+}
+.login .password{
+    position: absolute;
+    top: 1.48rem;
+    left: 4.22rem;
+    width: 2.9rem;
+    height: .5rem;
+    border: 0.01rem solid rgba(255, 255, 255, .2);
+}
+.login .password p{
+    font-size: .14rem;
+    line-height: .5rem;
+    margin-left: .22rem;
+    opacity: .3;
+}
+.login .button{
+    position: absolute;
+    top: 1.48rem;
+    left: 7.44rem;
+    width: 1.25rem;
+    height: .5rem;
+    background: #fff;
+    border-radius: .03rem;
+}
+.login .button p{
+    font-size: .14rem;
+    line-height: .5rem;
+    text-align: center;
+    color: #000;
+}
+#two{
+    position: relative;
+    height: 7.1rem;
+    background: #fff;
+}
+#two h1{
+    position: absolute;
+    left: 6.84rem;
+    height: 1.44rem;
+    line-height: 1.44rem;
+    text-align: center;
+    font-size:.14rem;
+
+}
+#two .describe{
+    position: absolute;
+    top:1.24rem;
+    left: 4.14rem;
+    font-size: .42rem;
+    width: 7.7rem;
+    height: .95rem;
+    text-align: center;
+}
+#two ul{
+    padding-top: 3.07rem;
+}
+#two ul li{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 2.2rem;
+}
+#two ul li .all{
+    display: inline;
+}
+#two ul li span{
+    float: left;
+}
+
+#two ul li h2{
+    padding-top:.3rem;
+    padding-left: .8rem;
+    font-size: .2rem;
+    line-height: .32rem;
+}
+#two ul li p{
+     box-sizing: border-box;
+     font-size: .16rem;
+     opacity: .7;
+     padding-left: .8rem;
+     width: 4.5rem;
+     height: .8rem;
+}
+#three img{
+    width: 100%;
+    height: 8rem;
+}
+#four{
+    height: 5.8rem;
+    background: #fff;
+    border-bottom: .01rem solid #ccc;
+}
+.content{
+    width: 9.7rem;
+    margin:0 auto;
+}
+#four h1{
+    font-size: .42rem;
+    text-align: center;
+    line-height: 2rem;
+}
+#four ul{
+    display: flex;
+    justify-content:center;
+}
+#four ul li{
+    flex: 1;
+}
+#four ul li h2{
+    text-align: center;
+}
+#four ul li p{
+    font-size: .16rem;
+    opacity: .7;
+    margin-right: .8rem;
+    text-align: center;
+    margin:0 .2rem;
+}
+#five{
+    height: 8.05rem;
+    border-bottom: .01rem solid #ccc;
+}
+#five .one{
+    height: 3.15rem;
+    margin-top: 1.15rem;
+    margin-bottom: .8rem;
+}
+#five .one::after{
+    clear: both;
+}
+#five .one img{
+    width: 5.7rem;
+    height: 3.5rem;
+    float: left;
+}
+#five .one .describe{
+    width: 4rem;
+    float: left;
+}
+#five .one .describe h1{
+    padding-top: .8rem;
+    padding-left: 1rem;
+    font-size: .2rem;
+}
+#five .one .describe p{
+    padding-top: .3rem;
+    padding-left: .8rem;
+    font-size: .16rem;
+}
+#five .two img{
+    width: 5.7rem;
+    height: 3.5rem;
+    float: right;
+}
+#five .two .describe{
+    width: 4rem;
+    float: right;
+}
+#five .two .describe h1{
+    padding-top: .8rem;
+    padding-right: 1rem;
+    font-size: .2rem;
+}
+#five .two .describe p{
+    padding-top: .3rem;
+    padding-right: .8rem;
+    font-size: .16rem;
+}
+#six{
+    height: 10.8rem;
+    background: #fff;
+    border-bottom: .01rem solid #ccc;
+}
+#six h1{
+   margin-top: 1rem;
+   font-size: .42rem;
+   text-align: center;
+}
+#six p{
+    width: 7rem;
+    font-size: .18rem;
+    opacity: .7;
+    text-align: center;
+    margin: .35rem auto .6rem;
+}
+#six img{
+    width: 4.7rem;
+    height: 3.7rem;
+}
+#seven{
+    height: 7rem;
+}
+#seven .left{
+    position: relative;
+    box-sizing: border-box;
+    width: 4.7rem;
+    height: 5.6rem;
+    margin-top: .7rem;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: .1rem;
+}
+#seven .left h2{
+    font-size: .16rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+#seven .mes{
+    width: 3.7rem;
+    margin: 0 auto
+}
+#seven .left input{
+    display: block;
+    width: 3.7rem;
+    height: .5rem;
+    outline: none;
+}
+#seven .mes .one{
+    margin-top: .5rem;
+}
+#seven .mes .two{
+    margin: .3rem auto;
+}
+#seven .left .three{ 
+    width: 3.7rem;
+    height: 1.4rem;
+    outline: none;
+}
+button{
+    position: absolute;
+    bottom: .5rem;
+    width: 3.7rem;
+    height: .5rem;
+    background: #000;
+    color: #fff;
+    outline:none;
+}
+#seven .right{
+    box-sizing: border-box;
+    width: 5rem;
+    height: 3rem;
+    float: left;
+    padding-left: 1.3rem;
+}
+.right h1{
+    margin-top: 1.55rem;
+    font-size: .42rem;
+    text-align: center;
+
+}
+.right>p{
+    width: 3.7rem;
+    margin-top: .35rem;
+    font-size: .16rem;
+    line-height: .26rem;
+    opacity: .7;
+}
+.right ul{
+    margin-top: .7rem;
+}
+.right ul li{
+    width: 3.7rem;
+    height: .55rem;
+    font-size: .16rem;
+}
+.right ul img{
+    width: .25rem;
+    height: .25rem;
+}
+
+.right ul span{
+    font-size: .16rem;
+    display: block;
+}
+.right ul .feast{
+    font-size: .16rem;
+    /* margin-left: .3rem; */
+}
+.right .touch{
+    margin-top: -.3rem;
+    margin-left: .4rem;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 4.1rem;
+    background: rgb(20,20,20);
+    color: #fff;
+}
+footer .nav{
+    flex: 1;
+    margin-top: .85rem;
+}
+footer .nav ul{
+    margin-top: .35rem;
+}
+footer .nav ul li{
+    font-size: .16rem;
+    opacity: .3;
+    line-height: .46rem;
+}
+footer .nav h1{
+    font-size: .14rem;
+}
+footer .one{
+    margin-left: 2.15rem;
+}
+footer .four{
+    margin-right: 2.15rem;
+}
+footer .nav p{
+    margin-top: .35rem;
+    font-size: .16rem;
+    opacity: .3;
+}
